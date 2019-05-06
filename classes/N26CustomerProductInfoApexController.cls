@@ -33,9 +33,9 @@ public class N26CustomerProductInfoApexController {
 
     public class ProductInformationWrapper{
         @AuraEnabled
-        Contact contactInfo {get;set;}
+        public Contact contactInfo {get;set;}
         @AuraEnabled
-        List<PackageInfoWrapper> packageInfoList{get;set;}
+        public List<PackageInfoWrapper> packageInfoList{get;set;}
             
         public ProductInformationWrapper (Contact contactInfo, List<PackageInfoWrapper> packageInfoList){
             this.contactInfo = contactInfo;
@@ -45,9 +45,9 @@ public class N26CustomerProductInfoApexController {
     
     public class PackageInfoWrapper {
         @AuraEnabled
-        String packageName  {get;set;}
+        public String packageName  {get;set;}
         @AuraEnabled
-        String packagePrice {get;set;}
+        public String packagePrice {get;set;}
             
         public PackageInfoWrapper (String packageName, String packagePrice){
             this.packageName = packageName;   
