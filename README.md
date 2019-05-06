@@ -22,5 +22,9 @@ Create Scratch Org and push code <br />
 	&nbsp;&nbsp;&nbsp;&nbsp;		- N26DailyEmailSendScheduler.scheduleDaily('Daily Message'); <br />
 	&nbsp;&nbsp;	- Create Product Data like table shown in excel on github <br />
 	&nbsp;&nbsp;	- Create Contact info with Product + Legal Country <br />
+	&nbsp;&nbsp;    - Create Case info and add Contact to case <br />
+	&nbsp;&nbsp; 	- Test Lightning Component opening Case Record Page <br />
+	&nbsp;&nbsp; 	- After Testing is done delete scratch org <br />
+	&nbsp;&nbsp;&nbsp;&nbsp;		- sfdx force:org:delete -u n26org <br />
 <br />
 Thanks
