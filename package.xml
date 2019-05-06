@@ -16,6 +16,10 @@
     </types>
     <types>
         <members>N26</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>N26</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -23,6 +27,10 @@
         <members>N26__c</members>
         <members>Product__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Product__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>unfiled$public/N26_Daily_De</members>
@@ -34,6 +42,15 @@
         <members>Contact_Record_Page</members>
         <members>N26_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Contact-Contact Layout</members>
+        <members>Product__c-Product Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>N26_permission</members>
+        <name>PermissionSet</name>
     </types>
     <version>45.0</version>
 </Package>
