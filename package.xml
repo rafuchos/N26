@@ -31,6 +31,8 @@
     </types>
     <types>
         <members>Case_Record_Page</members>
+        <members>Contact_Record_Page</members>
+        <members>N26_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <version>45.0</version>
