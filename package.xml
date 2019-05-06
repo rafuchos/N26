@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>N26CustomerProductInfoApexController</members>
+        <members>N26DailyEmailSend</members>
+        <members>N26DailyEmailSendScheduler</members>
+        <members>N26DailyEmailSendTest</members>
+        <members>N26SalesforceLimits</members>
+        <members>N26SalesforceLimitsMock</members>
+        <members>N26SalesforceLimitsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>N26CustomerProductInfo</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>N26</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Contact</members>
+        <members>N26__c</members>
+        <members>Product__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>unfiled$public/N26_Daily_De</members>
+        <members>unfiled$public/N26_Daily_En</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Case_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>45.0</version>
+</Package>
