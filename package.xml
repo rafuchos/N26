@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>N26CustomerProductInfoApexController</members>
+        <members>N26CustomerProductInfoApexControllerTest</members>
         <members>N26DailyEmailSend</members>
         <members>N26DailyEmailSendScheduler</members>
         <members>N26DailyEmailSendTest</members>
